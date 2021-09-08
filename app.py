@@ -5,8 +5,8 @@
 # from sklearn.externals import joblib
 from flask import Flask, request, render_template
 import numpy as np
-# from keras.models import load_model
-# import h5py
+from keras.models import load_model
+import h5py
 
 # Create Flask object to run
 app = Flask(__name__)
